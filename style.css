@@ -1,0 +1,57 @@
+/* body{
+    display: flexbox;
+} */
+body{
+    font-family: sans-serif;
+    /* background: rgba(0,13,32,255); */
+}
+#input-div{
+    /* background: rgba(151, 20, 145, 0.986); */
+    /* width: 60em;
+    height: 10em; */
+    width: 95%;
+    margin: auto;
+    margin-top: 2em;
+    border-radius: 2em;
+    padding: 2.5em;
+    text-align: center;
+    background: rgba(0,13,32,255);    
+}
+#pin_label{
+    margin: auto;
+    font-size: 1.75em;
+    color: rgb(255, 255, 255);
+}
+#pic{
+    min-height: 5em;
+    max-height: 25em;
+}
+#sub{
+    margin: auto;
+    font-size: large;
+    margin-top: 1em;
+}
+#pincode{
+    font-size: 1.75em;
+    border-radius: 0.5em;
+    width: 50%;
+    max-width: 10em;
+    margin-right: -2em;
+}
+#table{
+    background: #161616;
+    margin: auto;
+    color: #ff4530;
+    text-align: center;
+    border: 1px solid white;
+    width: 95%;
+    font-size: medium;
+    border-radius: 0.7em;
+    margin-bottom: 2em;
+}
+#table .row div{
+    border:solid 1px white;
+    min-width: 0.75em;
+    font-size: auto;
+    word-break:break-all
+}
